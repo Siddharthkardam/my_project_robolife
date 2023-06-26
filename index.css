@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    width: 1440px;
+    height: 108px;
+}
+nav{
+   width: 1440px;
+    height: 108px;
+    line-height: 75px;
+    padding: 0px;
+    position: fixed;
+    margin-top: 0px;
+    background: #313443;
+    
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15px;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a{
+    color: #fff;
+    transition: all 0.4s ease 0s;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 470px;
+    width: 1141px;
+    margin-left: 130px;
+    margin-top: 72px;
+    border: 1px solid green;
+}
+.overview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 72px;
+    width: 1180px;
+    margin-left: 132px;
+    margin-top: 182px;
+    background: #313443;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 1180px;
+    border: 1px solid black;
+    margin-top: 121px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+.footer{
+    padding-top: 85px;
+    width: 1440px;
+    height: 434px;
+    background: #313443;
+}
+.row{
+    margin-left: 126px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1184px;
+    height: 233px;
+}
+.footer_col_1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 233px;
+    width: 384px;
+}
+.footer_col_2{
+    width: 297px;
+    height: 233px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col_3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 233px;
+    width: 384px;
+}
+.last_line_box{
+    margin-top: 58px;
+    height: 58px;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(97, 97, 97, 1);
+    justify-content: space-around;
+}
+.last_box{
+    padding-top: 16px;
+    color: white;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+.follow{
+    margin-left: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.social_link{
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    font-size: 25px;
+}
+.social_link a{
+    margin-top: 15px;
+    color: #fff;
+}
+
